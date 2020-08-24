@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url(b5.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    height: auto;
+    width: auto;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+}
+
+.left {
+    /* border: solid 3px tomato; */
+    display: inline;
+    position: absolute;
+    left: 46px;
+    top: 9px;
+    padding: 0px 12px;
+}
+
+.left img {
+    width: 143px;
+    height: 119px;
+    padding: 0px 7px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 2px;
+}
+
+.mid {
+    /* border: solid 3px rebeccapurple; */
+    display: block;
+    width: 40%;
+    margin: 58px auto;
+}
+
+.right {
+    /* border: solid 3px red; */
+    /* background-color: bl?\ack; */
+    position: absolute;
+    right: 32px;
+    top: 38px;
+}
+
+.btn {
+    padding: 8px;
+    /* border: solid 2px gray; */
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+
+/* Navigation bar */
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 3px 17px;
+    font-family: cursive;
+}
+
+.navbar li a:active,
+.navbar li a:hover {
+    /* text-decoration:  */
+    color: rgb(192, 192, 226);
+}
+
+
+/* containor */
+
+.cont2 {
+    /* border: solid 1px red; */
+    margin: 159px 58px;
+    padding: 97px 56px;
+    width: 48%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    text-align: center;
+    padding: 10px 2px;
+    margin: 6px auto;
+    font-size: 20px;
+    display: block;
+    width: 592px;
+    border-radius: 25px;
+    border: solid 1px royalblue;
+}
+
+.form-group input:hover {
+    background-color: rgb(196, 198, 199);
+}
+
+.cont2 h1 {
+    text-align: center;
+    margin: 65px;
+}
+
+.cont2 .btn {
+    display: block;
+    width: 592px;
+    margin: 20px auto;
+    text-align: center;
+}
